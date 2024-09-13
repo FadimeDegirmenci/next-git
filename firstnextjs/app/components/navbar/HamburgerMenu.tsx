@@ -1,6 +1,7 @@
+import { RxHamburgerMenu } from "react-icons/rx";
 const HamburgerMenu = () => {
     return(
-     <div>HamburgerMenu</div>
+     <div className="relative">HamburgerMenu</div>
     )
  }
  
