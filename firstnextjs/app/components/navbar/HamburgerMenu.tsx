@@ -1,7 +1,9 @@
-import { RxHamburgerMenu } from "react-icons/rx";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 const HamburgerMenu = () => {
     return(
-     <div className="relative">HamburgerMenu</div>
+     <div className="relative flex md:hidden">
+        <GiHamburgerMenu size="25"/></div>
     )
  }
  

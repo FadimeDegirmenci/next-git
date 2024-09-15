@@ -1,7 +1,10 @@
+import Category from "./components/home/Category";
 
 
 export default function Home() {
   return (
-    <div>Anasayfa</div>
+    <div>
+      <Category/>
+      </div>
   )
 }
